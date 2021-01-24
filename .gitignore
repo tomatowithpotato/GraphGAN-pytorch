@@ -1,0 +1,6 @@
+cache/link_prediction/*
+cache/node_classification/*
+cache/recommendation/*
+blogcatalog.mat
+src/GraphGAN/test.py
+test.py
