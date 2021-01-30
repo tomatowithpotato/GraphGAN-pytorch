@@ -17,22 +17,61 @@ class LinkPredictEval(object):
         self.test_neg_filename = test_neg_filename  # each line: node_id1, node_id2
         self.n_node = n_node
         self.n_embed = n_embed
-        self.emd = utils.read_embeddings(embed_filename, n_node=n_node, n_embed=n_embed)
+        self.embed_filename = embed_filename
 
     def eval_link_prediction(self, emd=None):
+        '''for normal lp'''
         if emd is not None:
             self.emd = emd
+        else:
+            self.emd = utils.read_embeddings(self.embed_filename, self.n_node, self.n_embed)
+        
+        test_edges = self.read_test_edges(read_func=utils.read_edges_from_file)
 
-        test_edges = utils.read_edges_from_file(self.test_filename)
-        test_edges_neg = utils.read_edges_from_file(self.test_neg_filename)
+        score_res = self.create_scores(test_edges)
+        
+        true_label, test_label = self.create_labels(score_res)
+
+        accuracy, macro = self.get_acc_and_macro(true_label, test_label)
+
+        return {"acc": accuracy, "macro": macro}
+    
+    
+    def eval_rcmd_link_prediction(self, rcmd, emd=None):
+        '''for recommendation lp'''
+        if emd is not None:
+            self.emd = emd
+        else:
+            self.emd = utils.read_embeddings(self.embed_filename, self.n_node, self.n_embed)
+
+        test_edges = self.read_test_edges(read_func=rcmd.read_edges_from_file)
+
+        score_res = self.create_scores(test_edges)
+        
+        true_label, test_label = self.create_labels(score_res)
+
+        accuracy, macro = self.get_acc_and_macro(true_label, test_label)
+
+        return {"acc": accuracy, "macro": macro}
+
+
+    def create_scores(self, edges):
+        # may exists isolated point
+        score_res = []
+        for i in range(len(edges)):
+            score_res.append(np.dot(self.emd[edges[i][0]], self.emd[edges[i][1]]))
+        return score_res
+
+    def read_test_edges(self, read_func):
+        test_edges = read_func(self.test_filename)
+        test_edges_neg = read_func(self.test_neg_filename)
         
         test_edges.extend(test_edges_neg)  #test_edges前半部分边均为正样本，后半部分均为负样本
 
-        # may exists isolated point
-        score_res = []
-        for i in range(len(test_edges)):
-            score_res.append(np.dot(self.emd[test_edges[i][0]], self.emd[test_edges[i][1]]))
-        test_label = np.array(score_res)
+        return test_edges
+
+    def create_labels(self, scores):
+        test_label = np.array(scores)
         
         median = np.median(test_label)  #这行代码按得分中位数划分预测结果，tp+fp==fn+tn
         index_pos = test_label >= median
@@ -43,19 +82,22 @@ class LinkPredictEval(object):
        
         true_label[0: len(true_label) // 2] = 1  #前半部分边均为正标签，后半部分均为负标签，tp+fn==fp+tn
 
+        return true_label, test_label
+
+    def get_acc_and_macro(self, true_label, test_label):
         '''
-        由 tp+fp==fn+tn, tp+fn==fp+tn => tp==tn, fn==fp
-        因此accuracy, precision, recall三者相等，故accuracy等于f1-macro
+        由 tp+fp==fn+tn, tp+fn==fp+tn => tp==tn, fn==fp\n
+        因此accuracy, precision, recall三者相等，导致了实际输出中accuracy等于f1-macro
         '''
         #test_eval(true_label, test_label)
-
         accuracy = accuracy_score(true_label, test_label)
         macro = f1_score(true_label, test_label, average="macro")
+        return accuracy, macro
 
-        return {"acc": accuracy, "macro": macro}
+
 
 def test_eval(true_label, test_label):
-    '''测试评估是否正确'''
+    '''仅用作测试'''
     accuracy = accuracy_score(true_label, test_label)
     macro = f1_score(true_label, test_label, average="macro")
 

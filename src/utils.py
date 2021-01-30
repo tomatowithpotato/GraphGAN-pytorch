@@ -11,64 +11,6 @@ def str_list_to_float(str_list):
 def str_list_to_int(str_list):
     return [int(item) for item in str_list]
 
-def read_edges_rcmd(train_filename, test_filename):
-    '''值得一提，在该推荐系统中，GAN的embedding matrix实际可看成两部分\n
-    一部分是user，另一部分是movie\n
-    为了防止id号冲突，因此movie的id == movie_id + user_max
-    其中，user_max是最大的u_id。这样就可以把二者表示在同一个矩阵中了.
-    '''
-    train_ratings = pd.read_csv(train_filename)
-    train_user_list = train_ratings["user_id"].values.tolist()
-    train_movie_list = train_ratings["movie_id"].values.tolist()
-    train_rating_list = train_ratings["rating"].values.tolist()
-
-    test_ratings = pd.read_csv(test_filename)
-    test_user_list = test_ratings["user_id"].values.tolist()
-    test_movie_list = test_ratings["movie_id"].values.tolist()
-    test_rating_list = test_ratings["rating"].values.tolist()
-
-    all_user_list = train_user_list + test_user_list
-    all_movie_list = train_movie_list + test_movie_list
-
-    user_max = max(all_user_list)  #最大的u_id
-    movie_max = max(all_movie_list)  #最大的m_id
-
-    #将movie从user后开始编号
-    train_movie_list = [m + user_max for m in train_movie_list]
-    test_movie_list = [m + user_max for m in test_movie_list]
-    all_movie_list = [m + user_max for m in all_movie_list]
-
-    graph = {}
-    for user, movie in zip(train_user_list, train_movie_list):
-        u, m = user-1, movie-1 #改为从0开始编号
-        if u not in graph:
-            graph[u] = []
-        if m not in graph:
-            graph[m] = []
-        graph[u].append(m)
-        graph[m].append(u)
-            
-    
-    for user, movie in zip(test_user_list, test_movie_list):
-        u, m = user-1, movie-1 #改为从0开始编号
-        if u not in graph:
-            graph[u] = []
-        if m not in graph:
-            graph[m] = []
-        
-    unwatched_movies = {}  #未评分的电影集合（对于训练集而言）
-    u_set = set(all_user_list)
-    for m in range(movie_max+1):
-        for u in u_set:
-            if u not in unwatched_movies:
-                unwatched_movies[u] = []
-            if u in graph and m not in graph[u]:
-                unwatched_movies[u].append(m)
-
-    
-    print(len(graph.keys()), min(list(graph.keys())), max(list(graph.keys())), user_max)
-    return graph, user_max, unwatched_movies
-
 
 def read_edges(train_filename, test_filename=""):
     """read data from files
@@ -100,13 +42,6 @@ def read_edges(train_filename, test_filename=""):
             graph[edge[1]] = []
 
     return graph
-
-
-def read_edges_from_file_rcmd(filename):
-    neg_data = pd.read_csv(filename)
-    u_lst, m_lst = neg_data['user_id'].values.tolist(), neg_data['movie_id'].values.tolist()
-    edges = list(zip(u_lst, m_lst))
-    return edges
 
 def read_edges_from_file(filename):
     with open(filename, "r") as f:
@@ -224,4 +159,5 @@ def make_config_dirs(config):
                         os.makedirs(path)
 
 if __name__ == "__main__":
-    read_edges_rcmd("data/recommendation/MovieLens-1M/train.csv", "data/recommendation/MovieLens-1M/test.csv")
+    read_edges_rcmd("data/recommendation/MovieLens-1M/train.csv", 
+                    "data/recommendation/MovieLens-1M/test.csv")

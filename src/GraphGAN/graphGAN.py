@@ -10,6 +10,7 @@ from discriminator import Discriminator
 from generator import Generator
 import config
 from src import utils
+from src import rcmd_util
 from src.evaluation import link_prediction as lp
 from src.evaluation import node_classification as nc
 from BFS_trees import BFS_trees
@@ -28,15 +29,15 @@ class graphGAN():
             self.n_node = max(list(self.graph.keys())) + 1
             self.n_classes ,self.labels_matrix = utils.read_labels(filename=config.labels_filename, n_node=self.n_node)
         elif config.app == "recommendation":
-            self.graph, self.user_max, self.unwatched = utils.read_edges_rcmd(train_filename=config.rcmd_train_filename, 
-                                                                              test_filename=config.rcmd_test_filename)
+            self.graph, self.rcmd = rcmd_util.read_edges(train_filename=config.rcmd_train_filename, 
+                                                         test_filename=config.rcmd_test_filename)
             self.n_node = max(list(self.graph.keys())) + 1                                       
         else:
             raise Exception("Unknown task: {}".format(config.app))
         
         #read root nodes
         if config.app == "recommendation":
-            self.root_nodes = sorted(list(self.graph.keys()))[:self.user_max]
+            self.root_nodes = sorted(list(self.graph.keys()))[:self.rcmd.user_max]
         else:
             self.root_nodes = sorted(list(self.graph.keys()))
 
@@ -53,7 +54,7 @@ class graphGAN():
         #construct BFS-tree
         if config.app == "recommendation":
             self.BFS_trees = BFS_trees(self.root_nodes, self.graph, batch_num=config.cache_batch, 
-                                       app=config.app, user_max=self.user_max)
+                                       app=config.app, rcmd=self.rcmd)
         else:
             self.BFS_trees = BFS_trees(self.root_nodes, self.graph, batch_num=config.cache_batch)
         
@@ -65,10 +66,13 @@ class graphGAN():
         center_nodes = []
         neighbor_nodes = []
         labels = []
+        none_cnt = 0
         for i in tqdm.tqdm(self.root_nodes):
             if np.random.rand() < config.update_ratio:
                 pos = self.graph[i]
                 neg, _ = self.sample(i, self.BFS_trees.get_tree(i), len(pos), for_d=True)
+                if neg is None:
+                    none_cnt += 1
                 if len(pos) != 0 and neg is not None:
                     # positive samples
                     center_nodes.extend([i] * len(pos))
