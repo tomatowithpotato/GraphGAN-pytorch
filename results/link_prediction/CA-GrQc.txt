@@ -114,3 +114,35 @@ link_prediction	dis	acc: 0.7522429261559697	macro: 0.7522429261559697	lr: 1e-05
 epoch: pre_train
 link_prediction	gen	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
 link_prediction	dis	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+
+epoch: pre_train
+link_prediction	gen	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+link_prediction	dis	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+
+epoch: pre_train
+link_prediction	gen	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+link_prediction	dis	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+
+epoch: pre_train
+link_prediction	gen	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+link_prediction	dis	acc: 0.7598343685300207	macro: 0.7598343685300207	lr: 1e-05
+
+epoch: pre_train
+link_prediction	gen	acc: 0.4989648033126294	macro: 0.4989648033126294	lr: 1e-05
+link_prediction	dis	acc: 0.5031055900621118	macro: 0.5031055900621118	lr: 1e-05
+
+epoch: pre_train
+link_prediction	gen	acc: 0.4989648033126294	macro: 0.4989648033126294	lr: 1e-06
+link_prediction	dis	acc: 0.49620427881297446	macro: 0.49620427881297446	lr: 1e-06
+
+epoch: pre_train
+link_prediction	gen	acc: 0.5079365079365079	macro: 0.5079365079365079	lr: 1e-07
+link_prediction	dis	acc: 0.5010351966873706	macro: 0.5010351966873706	lr: 1e-07
+
+
+epoch: pre_train
+link_prediction	gen	acc: 0.5003450655624568	macro: 0.5003450655624568	lr: 0.001
+link_prediction	dis	acc: 0.494824016563147	macro: 0.494824016563147	lr: 0.001
+epoch: 0
+link_prediction	gen	acc: 0.5134575569358178	macro: 0.5134575569358178	lr: 0.001
+link_prediction	dis	acc: 0.5134575569358178	macro: 0.5134575569358178	lr: 0.001

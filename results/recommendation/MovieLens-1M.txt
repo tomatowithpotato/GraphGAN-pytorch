@@ -1,0 +1,275 @@
+
+none_cnt: 5585
+
+epoch: pre_train
+
+epoch: pre_train
+
+epoch: pre_train
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4990613266583229	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5017035182867473	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.49940898345153667	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5052843832568489	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4984876929495202	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.500052148518982	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5007474621054095	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5023466833541927	lr: 1e-05
+epoch: 0
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4894659991656237	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49883534974273397	lr: 1e-05
+epoch: 1
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4965060492282019	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49744472256987904	lr: 1e-05
+epoch: 2
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.49539354748991793	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.4954804616882214	lr: 1e-05
+epoch: 3
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.49236893338895843	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.4930642469753859	lr: 1e-05
+epoch: 4
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4870497844527882	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49167361980253094	lr: 1e-05
+epoch: 5
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.48353845084132946	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49064803226255044	lr: 1e-05
+epoch: 6
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4787755527743012	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.48915310805173134	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5031289111389237	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49775761368377136	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5008517591433737	lr: 1e-06
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5021380892782645	lr: 1e-06
+epoch: 0
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.4950806563760256	lr: 1e-06
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5019816437213183	lr: 1e-06
+epoch: 1
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.49139549436795993	lr: 1e-06
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.5017382839660687	lr: 1e-06
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5037720762063691	lr: 1e-07
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49980878876373247	lr: 1e-07
+epoch: 0
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5029724655819775	lr: 1e-07
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.4997392574050897	lr: 1e-07
+epoch: 1
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.5025031289111389	lr: 1e-07
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.49975664024475036	lr: 1e-07
+
+epoch: pre_train
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.7023710193297177	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7023710193297177	lr: 1e-05
+epoch: 0
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.719232373800584	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7057432902238909	lr: 1e-05
+epoch: 1
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.6760186344041162	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7087331386455291	lr: 1e-05
+epoch: 2
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.64271311361424	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7116708385481852	lr: 1e-05
+epoch: 3
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.6274509803921569	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7149214295647337	lr: 1e-05
+epoch: 4
+recommendation	gen	acc: 0.0	macro: 0.0	lp_acc: 0.6290849673202614	lr: 1e-05
+recommendation	dis	acc: 0.0	macro: 0.0	lp_acc: 0.7169378389653733	lr: 1e-05
+
+epoch: pre_train
+recommendation	gen	acc: 0.01637208494376167	macro: 0.016108357545718682	lp_acc: 0.7023710193297177	lr: 1e-05
+recommendation	dis	acc: 0.01667607591088722	macro: 0.01640254581179787	lp_acc: 0.7023710193297177	lr: 1e-05
+epoch: 0
+recommendation	gen	acc: 0.010161983758196899	macro: 0.010059756674261637	lp_acc: 0.7181024892226394	lr: 1e-05
+recommendation	dis	acc: 0.017284057845138315	macro: 0.016990394877267875	lp_acc: 0.705795438742873	lr: 1e-05
+
+--------------------------------------------------
+epoch: pre_train
+recommendation	gen	rcmd_K: 2	precision: 0.01905110826158637	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.015600536792663834	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.015303046054683439	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.01535056657223796	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.015528977559582876	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01905110826158637	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.015544620890181167	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.015303046054683439	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.015385977337110482	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.01554638672725057	recall: 1.0	lp_acc: 0.7023710193297177	lr: 1e-06
+epoch: 0
+recommendation	gen	rcmd_K: 2	precision: 0.018043597728521706	recall: 1.0	lp_acc: 0.7123661521346127	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.015041377767837172	recall: 1.0	lp_acc: 0.7123661521346127	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.015178292961846345	recall: 1.0	lp_acc: 0.7123661521346127	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.015138101983002833	recall: 1.0	lp_acc: 0.7123661521346127	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.015389704218241327	recall: 1.0	lp_acc: 0.7123661521346127	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01905110826158637	recall: 1.0	lp_acc: 0.7028229731608956	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.015572578841422501	recall: 1.0	lp_acc: 0.7028229731608956	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.015323838236822955	recall: 1.0	lp_acc: 0.7028229731608956	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.015385977337110482	recall: 1.0	lp_acc: 0.7028229731608956	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.01554638672725057	recall: 1.0	lp_acc: 0.7028229731608956	lr: 1e-06
+epoch: 1
+recommendation	gen	rcmd_K: 2	precision: 0.016211760395676865	recall: 1.0	lp_acc: 0.7206925323320817	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.01409080742563185	recall: 1.0	lp_acc: 0.7206925323320817	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.014658488408358457	recall: 1.0	lp_acc: 0.7206925323320817	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.01480169971671388	recall: 1.0	lp_acc: 0.7206925323320817	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.014989293361884369	recall: 1.0	lp_acc: 0.7206925323320817	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01905110826158637	recall: 1.0	lp_acc: 0.703240161312752	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.015628494743905166	recall: 1.0	lp_acc: 0.703240161312752	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.015365422601101986	recall: 1.0	lp_acc: 0.703240161312752	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.015439093484419263	recall: 1.0	lp_acc: 0.703240161312752	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.015598614230253651	recall: 1.0	lp_acc: 0.703240161312752	lr: 1e-06
+epoch: 2
+recommendation	gen	rcmd_K: 2	precision: 0.014837882396043231	recall: 1.0	lp_acc: 0.726063829787234	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.013391858644598523	recall: 1.0	lp_acc: 0.726063829787234	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.013847593304917352	recall: 1.0	lp_acc: 0.726063829787234	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.01419971671388102	recall: 1.0	lp_acc: 0.726063829787234	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.01436256332584739	recall: 1.0	lp_acc: 0.726063829787234	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.019142700128228614	recall: 1.0	lp_acc: 0.7037268808232513	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.01568441064638783	recall: 1.0	lp_acc: 0.7037268808232513	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.015427799147520533	recall: 1.0	lp_acc: 0.7037268808232513	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.015474504249291785	recall: 1.0	lp_acc: 0.7037268808232513	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.01563343256558904	recall: 1.0	lp_acc: 0.7037268808232513	lr: 1e-06
+
+--------------------------------------------------
+epoch: pre_train
+recommendation	gen	rcmd_K: 2	precision: 0.01881860951385259	recall: 0.005503254626916485	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.02929268414108967	recall: 0.026363968249129177	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.05025448368953951	recall: 0.04933481106946162	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.10738969257292452	recall: 0.10731442698424097	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.179574415136865	recall: 0.17956572598898746	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01847011674507754	recall: 0.005525873399214951	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.028904985935827424	recall: 0.026010733387994128	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.049237460251133305	recall: 0.04834604421350728	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10579498321783136	recall: 0.10572489079572261	lp_acc: 0.7023710193297177	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.17827223797455025	recall: 0.1782640005765581	lp_acc: 0.7023710193297177	lr: 1e-06
+epoch: 0
+recommendation	gen	rcmd_K: 2	precision: 0.017686008015333682	recall: 0.005274155600055518	lp_acc: 0.712244472256988	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.03000370619293764	recall: 0.027186070759667686	lp_acc: 0.712244472256988	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.05459838225140496	recall: 0.05369738031092344	lp_acc: 0.712244472256988	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.1192503578038067	recall: 0.11917882171705732	lp_acc: 0.712244472256988	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.20405937348230177	recall: 0.2040502422167325	lp_acc: 0.712244472256988	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01847011674507754	recall: 0.005525873399214951	lp_acc: 0.7027534418022529	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.029137314448344123	recall: 0.026243061900510827	lp_acc: 0.7027534418022529	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.04949011750849521	recall: 0.048598324314193	lp_acc: 0.7027534418022529	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.1061468644342326	recall: 0.10607677201212383	lp_acc: 0.7027534418022529	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.17917420050494637	recall: 0.17916596310695423	lp_acc: 0.7027534418022529	lr: 1e-06
+epoch: 1
+recommendation	gen	rcmd_K: 2	precision: 0.016030667363652204	recall: 0.0046638416513362264	lp_acc: 0.7201015157836184	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.031218314124743674	recall: 0.028535022816837688	lp_acc: 0.7201015157836184	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.05821766235980386	recall: 0.05733272988501578	lp_acc: 0.7201015157836184	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.1348695257871625	recall: 0.13479487287303837	lp_acc: 0.7201015157836184	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.2330287239442377	recall: 0.2330195926786684	lp_acc: 0.7201015157836184	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01847011674507754	recall: 0.005525873399214951	lp_acc: 0.7031706299541093	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.029299944407105816	recall: 0.02642088256970631	lp_acc: 0.7031706299541093	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.04973696655304421	recall: 0.048845173358742014	lp_acc: 0.7031706299541093	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10690328047058317	recall: 0.1068331880484744	lp_acc: 0.7031706299541093	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18007980179606775	recall: 0.1800715643980756	lp_acc: 0.7031706299541093	lr: 1e-06
+epoch: 2
+recommendation	gen	rcmd_K: 2	precision: 0.014113957135389441	recall: 0.00399973571094828	lp_acc: 0.7259769155889306	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.032507460787648844	recall: 0.03006899430423517	lp_acc: 0.7259769155889306	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.06282523841746716	recall: 0.06198106246964351	lp_acc: 0.7259769155889306	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.15392566263602553	recall: 0.1538514376954771	lp_acc: 0.7259769155889306	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.26716947650708356	recall: 0.2671603452415142	lp_acc: 0.7259769155889306	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.018644363129465064	recall: 0.005656558187505593	lp_acc: 0.7036225837852872	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.029411959939926364	recall: 0.02653289810252686	lp_acc: 0.7036225837852872	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.050017420257439354	recall: 0.04912562706313717	lp_acc: 0.7036225837852872	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10762906450543638	recall: 0.1075589720833276	lp_acc: 0.7036225837852872	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18095452895277053	recall: 0.1809462915547784	lp_acc: 0.7036225837852872	lr: 1e-06
+epoch: 3
+recommendation	gen	rcmd_K: 2	precision: 0.012023000522739153	recall: 0.003487687039967886	lp_acc: 0.7289493811709081	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.032633443689376665	recall: 0.030339614398226102	lp_acc: 0.7289493811709081	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.06835131007396622	recall: 0.06756203400471075	lp_acc: 0.7289493811709081	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.17662678974469986	recall: 0.1765540739466259	lp_acc: 0.7289493811709081	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.3056949569610345	recall: 0.30568627744535065	lp_acc: 0.7289493811709081	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.018644363129465064	recall: 0.005656558187505593	lp_acc: 0.7038485607008761	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.029612343281972008	recall: 0.026718805591100323	lp_acc: 0.7038485607008761	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.050309193963031504	recall: 0.04941740076872929	lp_acc: 0.7038485607008761	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10826691501913634	recall: 0.10819682259702758	lp_acc: 0.7038485607008761	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18211491195940047	recall: 0.18210667456140836	lp_acc: 0.7038485607008761	lr: 1e-06
+epoch: 4
+recommendation	gen	rcmd_K: 2	precision: 0.010280536678863913	recall: 0.003098007663942281	lp_acc: 0.7299054373522459	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.034386625068799546	recall: 0.03235115061952157	lp_acc: 0.7299054373522459	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.07670971949092234	recall: 0.07598585387203059	lp_acc: 0.7299054373522459	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.1997890366886597	recall: 0.19972136684560668	lp_acc: 0.7299054373522459	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.3436291708485032	recall: 0.3436204913328194	lp_acc: 0.7299054373522459	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.018644363129465064	recall: 0.005656558187505593	lp_acc: 0.7040571547768043	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.030013109966063302	recall: 0.027097381114281404	lp_acc: 0.7040571547768043	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.050795966875314076	recall: 0.04990191493158463	lp_acc: 0.7040571547768043	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10899108226109208	recall: 0.10892098983898334	lp_acc: 0.7040571547768043	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18340004526683595	recall: 0.18339180786884382	lp_acc: 0.7040571547768043	lr: 1e-06
+epoch: 5
+recommendation	gen	rcmd_K: 2	precision: 0.008886565603763722	recall: 0.002885831506237774	lp_acc: 0.72823668474482	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.03518069073479412	recall: 0.03337207650896856	lp_acc: 0.72823668474482	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.0870517811145648	recall: 0.08640092203358006	lp_acc: 0.72823668474482	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.22460520026235972	recall: 0.22454001857093148	lp_acc: 0.72823668474482	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.3771689411495115	recall: 0.37716071338371315	lp_acc: 0.72823668474482	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.018644363129465064	recall: 0.005656558187505593	lp_acc: 0.7044048115700181	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.030163155463730336	recall: 0.027247426611948438	lp_acc: 0.7044048115700181	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.05103817254093845	recall: 0.050135635788629784	lp_acc: 0.7044048115700181	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.10993209505516395	recall: 0.1098620026330552	lp_acc: 0.7044048115700181	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18493218002580736	recall: 0.18492394262781522	lp_acc: 0.7044048115700181	lr: 1e-06
+epoch: 6
+recommendation	gen	rcmd_K: 2	precision: 0.008973688795957484	recall: 0.0031118426781636794	lp_acc: 0.7261333611458768	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.03778781768849711	recall: 0.03616671563523848	lp_acc: 0.7261333611458768	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.09454369888322275	recall: 0.09394407789672676	lp_acc: 0.7261333611458768	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.2464888933694316	recall: 0.2464263438297864	lp_acc: 0.7261333611458768	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.40739331865305556	recall: 0.4073853181651499	lp_acc: 0.7261333611458768	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.018731486321658827	recall: 0.005678338985554034	lp_acc: 0.7048741482408566	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.03058425089266684	recall: 0.02766291691243612	lp_acc: 0.7048741482408566	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.05136565420903972	recall: 0.05045963252904327	lp_acc: 0.7048741482408566	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.11075308953817549	recall: 0.11068299711606673	lp_acc: 0.7048741482408566	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18602957563285488	recall: 0.18602133823486272	lp_acc: 0.7048741482408566	lr: 1e-06
+epoch: 7
+recommendation	gen	rcmd_K: 2	precision: 0.00836382645060115	recall: 0.0030277418199921974	lp_acc: 0.7229523014879711	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.043480695989843735	recall: 0.041960940202737065	lp_acc: 0.7229523014879711	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.10271845912395569	recall: 0.10213573021573924	lp_acc: 0.7229523014879711	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.26421657989470515	recall: 0.26415284864082894	lp_acc: 0.7229523014879711	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.4295732253797659	recall: 0.4295652248918602	lp_acc: 0.7229523014879711	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.01899285589824011	recall: 0.00589614696603844	lp_acc: 0.7051522736754277	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.031046418683637556	recall: 0.028119276490593925	lp_acc: 0.7051522736754277	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.05165606484968557	recall: 0.05075149522289237	lp_acc: 0.7051522736754277	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.1112327212865502	recall: 0.11116262886444142	lp_acc: 0.7051522736754277	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18745299760734457	recall: 0.18744476020935244	lp_acc: 0.7051522736754277	lr: 1e-06
+epoch: 8
+recommendation	gen	rcmd_K: 2	precision: 0.008102456874019864	recall: 0.00301673947183116	lp_acc: 0.7189542483660131	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.046188844359257145	recall: 0.04471489476741599	lp_acc: 0.7189542483660131	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.11031794748415495	recall: 0.1097532498319791	lp_acc: 0.7189542483660131	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.27781124263962376	recall: 0.2777505534053292	lp_acc: 0.7189542483660131	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.44546835666829876	recall: 0.4454603561803931	lp_acc: 0.7189542483660131	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.019167102282627635	recall: 0.005950080370729817	lp_acc: 0.7056042275066055	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.03133558470725209	recall: 0.028395166599207513	lp_acc: 0.7056042275066055	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.052031398601914254	recall: 0.05112616895093778	lp_acc: 0.7056042275066055	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.11236654005386014	recall: 0.11229644763175137	lp_acc: 0.7056042275066055	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.18843688157843355	recall: 0.18842864418044145	lp_acc: 0.7056042275066055	lr: 1e-06
+epoch: 9
+recommendation	gen	rcmd_K: 2	precision: 0.00792821048963234	recall: 0.003113025518601895	lp_acc: 0.7146954526491448	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.04886290405108997	recall: 0.04728697715973392	lp_acc: 0.7146954526491448	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.11668547269045884	recall: 0.11611780964585075	lp_acc: 0.7146954526491448	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.28638235125552264	recall: 0.28631909850715404	lp_acc: 0.7146954526491448	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.4557736293402233	recall: 0.4557665351579885	lp_acc: 0.7146954526491448	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.019254225474821397	recall: 0.005979121434794403	lp_acc: 0.7060040328188013	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.031431420218665226	recall: 0.028480837738198036	lp_acc: 0.7060040328188013	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.053042027631361906	recall: 0.05213825003358865	lp_acc: 0.7060040328188013	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.11299256382031708	recall: 0.11292247139820834	lp_acc: 0.7060040328188013	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.189910575459642	recall: 0.18990233806164988	lp_acc: 0.7060040328188013	lr: 1e-06
+epoch: 10
+recommendation	gen	rcmd_K: 2	precision: 0.009060811988151245	recall: 0.0036306013229155	lp_acc: 0.7098804060631345	lr: 1e-06
+recommendation	gen	rcmd_K: 10	precision: 0.05232930077415167	recall: 0.05056075909789237	lp_acc: 0.7098804060631345	lr: 1e-06
+recommendation	gen	rcmd_K: 20	precision: 0.11936663282902717	recall: 0.1187629964262297	lp_acc: 0.7098804060631345	lr: 1e-06
+recommendation	gen	rcmd_K: 50	precision: 0.29023473231577174	recall: 0.29017085856179003	lp_acc: 0.7098804060631345	lr: 1e-06
+recommendation	gen	rcmd_K: 100	precision: 0.4616529219975096	recall: 0.46164627956516024	lp_acc: 0.7098804060631345	lr: 1e-06
+recommendation	dis	rcmd_K: 2	precision: 0.019254225474821397	recall: 0.005979121434794403	lp_acc: 0.7063169239326936	lr: 1e-06
+recommendation	dis	rcmd_K: 10	precision: 0.031636367156492456	recall: 0.02866364567917604	lp_acc: 0.7063169239326936	lr: 1e-06
+recommendation	dis	rcmd_K: 20	precision: 0.05327145203747215	recall: 0.052363963637068404	lp_acc: 0.7063169239326936	lr: 1e-06
+recommendation	dis	rcmd_K: 50	precision: 0.11356400840639841	recall: 0.11349391598428965	lp_acc: 0.7063169239326936	lr: 1e-06
+recommendation	dis	rcmd_K: 100	precision: 0.19169393235040272	recall: 0.1916856949524106	lp_acc: 0.7063169239326936	lr: 1e-06
